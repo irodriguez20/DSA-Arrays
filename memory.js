@@ -15,7 +15,7 @@ class Memory {
     return start;
   }
 
-  free(ptr) {}
+  free(ptr) { }
 
   copy(toIdx, fromIdx, size) {
     if (fromIdx === toIdx) {
@@ -44,4 +44,4 @@ class Memory {
   }
 }
 
-module.exports = Memory;
+export default Memory;
